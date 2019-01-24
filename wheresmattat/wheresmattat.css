@@ -1,0 +1,59 @@
+
+body {
+	font-family: 'Nunito', sans-serif;
+}
+
+/*body {
+	font-family: 'Signika', sans-serif;
+}*/
+
+/*body {
+	font-family: 'Catamaran', sans-serif;
+}*/
+
+/*body {
+	font-family: 'Vollkorn', serif;
+}*/
+
+/*body {
+	font-family: 'Signika Negative', sans-serif;
+}*/
+
+/*body {
+	font-family: 'Gentium Book Basic', serif;
+}*/
+
+h1 {
+	text-align: center;
+	margin-top: 25px;
+}
+
+p {
+	width: 75%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+hr {
+	width: 50%;
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+img {
+	width: 22%;
+	float: left;
+	margin: 1.5%;
+	-webkit-filter: grayscale(100%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
+	filter: grayscale(100%); /* FF 35+ */
+}
+
+img:hover {
+	transition: filter .1s ease-in-out;
+	-webkit-filter: grayscale(0%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
+	filter: grayscale(0%);
+}
+
