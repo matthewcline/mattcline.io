@@ -1,37 +1,22 @@
+html, body {
+	height: 100%;
+}
 
 body {
 	font-family: 'Nunito', sans-serif;
 	font-size: 16px;
 }
 
-/*body {
-	font-family: 'Signika', sans-serif;
-}*/
-
-/*body {
-	font-family: 'Catamaran', sans-serif;
-}*/
-
-/*body {
-	font-family: 'Vollkorn', serif;
-}*/
-
-/*body {
-	font-family: 'Signika Negative', sans-serif;
-}*/
-
-/*body {
-	font-family: 'Gentium Book Basic', serif;
-}*/
-
 h1 {
 	text-align: center;
 	margin-top: 30px;
 	font-size: 2.5rem;
-	letter-spacing: .15rem;
+	/*letter-spacing: .15rem;*/
 }
 
-p {
+h1 + p {
+	text-align: center;
+	font-size: 1.2rem;
 	max-width: 850px;
 	width: 90%;
 	margin: 30px auto;
@@ -45,45 +30,60 @@ hr {
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
 }
 
-img {
-	width: 22%;
-	float: left;
-	margin: 1.5%;
-	-webkit-filter: grayscale(100%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
-	filter: grayscale(100%); /* FF 35+ */
-}
-
-img:hover {
-	transition: filter .1s ease-in-out;
-	-webkit-filter: grayscale(0%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
-	filter: grayscale(0%);
-}
-
- .imageContainer {
+.imageContainer {
  	float: left;
+ 	width: 22%;
+    height: 70%;
+    margin: 1.5%;
+    padding-top: 30px;
+ 	font-family: 'Pacifico', cursive;
  	text-align: center;
  	font-size: 2rem;
- 	padding-top: 30px;
- 	color: white;
-    background-image: url("/Users/matthewcline/Documents/images_wheresmattat/thailand.jpeg");
-    background-size: contain;
+ 	color: transparent;
     background-repeat: no-repeat;
-    width: 22%;
-    height: 390px;
-    /*height: 50%;*/
-    margin: 1.5%;
-
-    color: transparent;
+    /*background-size: 100% auto;*/
+    background-size: cover;
+    background-position: center center;
     -webkit-filter: grayscale(100%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
 	filter: grayscale(100%); /* FF 35+ */
 
  }
 
- .imageContainer:hover {
+.imageContainer:hover {
  	color: white;
 	/*transition: filter .1s ease-in-out;*/
 	-webkit-filter: grayscale(0%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
 	filter: grayscale(0%);
 }
 
+ #thailand {
+ 	background-image: url("/Users/matthewcline/Documents/images_wheresmattat/thailand.jpeg");
+ }
 
+ #japan {
+ 	background-image: url("/Users/matthewcline/Documents/images_wheresmattat/japan.jpeg");
+ } 
+
+ #korea {
+ 	background-image: url("/Users/matthewcline/Documents/images_wheresmattat/korea.jpeg");
+ } 
+
+ #hongkong {
+ 	background-image: url("/Users/matthewcline/Documents/images_wheresmattat/hongkong.jpeg");
+ } 
+
+ #singapore {
+ 	background-image: url("/Users/matthewcline/Documents/images_wheresmattat/singapore.jpeg");
+ } 
+
+ #india {
+ 	background-image: url("/Users/matthewcline/Documents/images_wheresmattat/india.jpeg");
+ } 
+
+ #nepal {
+ 	background-image: url("/Users/matthewcline/Documents/images_wheresmattat/nepal.jpeg");
+ } 
+
+ #ireland {
+ 	background-image: url("/Users/matthewcline/Documents/images_wheresmattat/ireland.jpeg");
+ }
