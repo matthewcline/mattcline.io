@@ -10,11 +10,17 @@ body {
 h1 {
 	text-align: center;
 	margin-top: 30px;
-	font-size: 2.5rem;
+	margin-bottom: 5px;
+	font-size: 2.8rem;
 	/*letter-spacing: .15rem;*/
 }
 
-h1 + p {
+#map-icon {
+	text-align: center;
+	font-size: 2.6rem;
+}
+
+#intro-paragraph {
 	text-align: center;
 	font-size: 1.2rem;
 	max-width: 850px;
