@@ -13,9 +13,51 @@
 
     <link href="https://fonts.googleapis.com/css?family=Lobster|Pacifico" rel="stylesheet">
 
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css" integrity="sha384-PmY9l28YgO4JwMKbTvgaS7XNZJ30MK9FAZjjzXtlqyZCqBY6X6bXIkM++IkyinN+" crossorigin="anonymous">
+
+    <!-- Bootstrap 4 -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.0/css/bootstrap.min.css" integrity="sha384-PDle/QlgIONtM1aqA2Qemk5gPOE7wFq8+Em+G/hmo5Iq0CCmYZLv3fVRDJ4MMwEA" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.0/js/bootstrap.min.js" integrity="sha384-7aThvCh9TypR7fIc2HV4O/nFMVCBwyIUKL8XCtKE+8xgCgl/PQGuFsvShjr74PBp" crossorigin="anonymous"></script>
+
     <title>Where's Matt At?</title>
   </head>
   <body>
+
+	<!-- Bootstrap experiment -->
+	<header>
+	  <div class="overlay"></div>
+	  <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+	    <source src="/Users/matthewcline/Downloads/IMG_2329_smaller.mp4" type="video/mp4">
+	  </video>
+	  <div class="container h-100">
+	    <div class="d-flex h-100 text-center align-items-center">
+	      <div class="w-100 text-white">
+	        <h1 class="display-3">Where's Matt At?</h1>
+	        <!-- <p class="lead mb-0">With HTML5 Video and Bootstrap 4</p> -->
+	      </div>
+	    </div>
+	  </div>
+	</header>
+
+	<section class="my-5">
+	  <div class="container">
+	    <div class="row">
+	      <div class="col-md-8 mx-auto">
+	        <p>The HTML5 video element uses an mp4 video as a source. Change the source video to add in your own background! The header text is vertically centered using flex utilities that are build into Bootstrap 4.</p>
+	        <p>The overlay color can be changed by changing the <code>background-color</code> of the <code>.overlay</code> class in the CSS.</p>
+	        <p>Set the mobile fallback image in the CSS by changing the background image of the header element within the media query at the bottom of the CSS snippet.</p>
+	        <p class="mb-0">
+	          Created by <a href="https://startbootstrap.com">Start Bootstrap</a>
+	        </p>
+	      </div>
+	    </div>
+	  </div>
+	</section>
+	<!-- End Bootstrap experiment -->
+	<!-- Adapted from: https://startbootstrap.com/snippets/video-header/ -->
+
     <h1>Where's Matt At?</h1>
 	<div id="map-icon"><i class="fas fa-map-marked-alt"></i></div>
 	<p title="Introduction Paragraph" id="intro-paragraph">
