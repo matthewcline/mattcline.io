@@ -13,20 +13,20 @@
 
     <link href="https://fonts.googleapis.com/css?family=Lobster|Pacifico" rel="stylesheet">
 
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css" integrity="sha384-PmY9l28YgO4JwMKbTvgaS7XNZJ30MK9FAZjjzXtlqyZCqBY6X6bXIkM++IkyinN+" crossorigin="anonymous">
+	<!-- Bootstrap 3 Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
 
     <!-- Bootstrap 4 -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.0/css/bootstrap.min.css" integrity="sha384-PDle/QlgIONtM1aqA2Qemk5gPOE7wFq8+Em+G/hmo5Iq0CCmYZLv3fVRDJ4MMwEA" crossorigin="anonymous">
+<!--     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.0/css/bootstrap.min.css" integrity="sha384-PDle/QlgIONtM1aqA2Qemk5gPOE7wFq8+Em+G/hmo5Iq0CCmYZLv3fVRDJ4MMwEA" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.0/js/bootstrap.min.js" integrity="sha384-7aThvCh9TypR7fIc2HV4O/nFMVCBwyIUKL8XCtKE+8xgCgl/PQGuFsvShjr74PBp" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.0/js/bootstrap.min.js" integrity="sha384-7aThvCh9TypR7fIc2HV4O/nFMVCBwyIUKL8XCtKE+8xgCgl/PQGuFsvShjr74PBp" crossorigin="anonymous"></script> -->
 
     <title>Where's Matt At?</title>
   </head>
   <body>
-
 	<!-- Bootstrap experiment -->
-	<header>
+<!-- 	<header>
 	  <div class="overlay"></div>
 	  <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
 	    <source src="/Users/matthewcline/Downloads/IMG_2329_smaller.mp4" type="video/mp4">
@@ -35,7 +35,6 @@
 	    <div class="d-flex h-100 text-center align-items-center">
 	      <div class="w-100 text-white">
 	        <h1 class="display-3">Where's Matt At?</h1>
-	        <!-- <p class="lead mb-0">With HTML5 Video and Bootstrap 4</p> -->
 	      </div>
 	    </div>
 	  </div>
@@ -54,7 +53,7 @@
 	      </div>
 	    </div>
 	  </div>
-	</section>
+	</section> -->
 	<!-- End Bootstrap experiment -->
 	<!-- Adapted from: https://startbootstrap.com/snippets/video-header/ -->
 
@@ -66,14 +65,29 @@
 
 	<hr>
 
-	<div title="Thailand" id="thailand" class="imageContainer">Thailand</div>
+<!-- 	<div title="Thailand" id="thailand" class="imageContainer">Thailand</div>
 	<div title="Japan" id="japan" class="imageContainer">Japan</div>
 	<div title="South Korea" id="korea" class="imageContainer">South Korea</div>
 	<div title="Hong Kong" id="hongkong" class="imageContainer">Hong Kong</div>
 	<div title="Singapore" id="singapore" class="imageContainer">Singapore</div>
 	<div title="India" id="india" class="imageContainer">India</div>
 	<div title="Nepal" id="nepal" class="imageContainer">Nepal</div>
-	<div title="Ireland" id="ireland" class="imageContainer">Ireland</div>
+	<div title="Ireland" id="ireland" class="imageContainer">Ireland</div> -->
+
+	<div class="container">
+		<div class="row">
+			<div class="col-md-3 col-sm-6 imageContainer" title="Thailand" id="thailand">Thailand</div>
+			<div class="col-md-3 col-sm-6 imageContainer" title="Japan" id="japan">Japan</div>
+			<div class="col-md-3 col-sm-6 imageContainer" title="South Korea" id="korea">South Korea</div>
+			<div class="col-md-3 col-sm-6 imageContainer" title="Hong Kong" id="hongkong">Hong Kong</div>
+		</div>
+		<div class="row">
+			<div class="col-md-3 imageContainer" title="Singapore" id="singapore">Singapore</div>
+			<div class="col-md-3 imageContainer" title="India" id="india">India</div>
+			<div class="col-md-3 imageContainer" title="Nepal" id="nepal">Nepal</div>
+			<div class="col-md-3 imageContainer" title="Ireland" id="ireland">Ireland</div>	
+		</div>
+	</div>
 
   </body>
 </html>
