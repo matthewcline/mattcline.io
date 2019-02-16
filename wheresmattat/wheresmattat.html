@@ -16,6 +16,11 @@
 	<!-- Bootstrap 3 Latest compiled and minified CSS -->
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
 
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" crossorigin="anonymous"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
+
     <!-- Bootstrap 4 -->
 <!--     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.0/css/bootstrap.min.css" integrity="sha384-PDle/QlgIONtM1aqA2Qemk5gPOE7wFq8+Em+G/hmo5Iq0CCmYZLv3fVRDJ4MMwEA" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
@@ -57,35 +62,112 @@
 	<!-- End Bootstrap experiment -->
 	<!-- Adapted from: https://startbootstrap.com/snippets/video-header/ -->
 
-    <h1>Where's Matt At?</h1>
-	<div id="map-icon"><i class="fas fa-map-marked-alt"></i></div>
-	<p title="Introduction Paragraph" id="intro-paragraph">
-		I love to travel and capture beauty in different places.  Here are images from some of those places. 
-	</p>
+	<nav class="navbar navbar-default navbar-fixed-top">
+	  <div class="container-fluid">
+	    <!-- Brand and toggle get grouped for better mobile display -->
+	    <div class="navbar-header">
+	      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+	        <span class="sr-only">Toggle navigation</span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	      </button>
+	      <a class="navbar-brand" href="#">Brand</a>
+	    </div>
 
-	<hr>
+	    <!-- Collect the nav links, forms, and other content for toggling -->
+	    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+	      <ul class="nav navbar-nav">
+	        <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
+	        <li><a href="#">Link</a></li>
+	        <li class="dropdown">
+	          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+	          <ul class="dropdown-menu">
+	            <li><a href="#">Action</a></li>
+	            <li><a href="#">Another action</a></li>
+	            <li><a href="#">Something else here</a></li>
+	            <li role="separator" class="divider"></li>
+	            <li><a href="#">Separated link</a></li>
+	            <li role="separator" class="divider"></li>
+	            <li><a href="#">One more separated link</a></li>
+	          </ul>
+	        </li>
+	      </ul>
+	      <form class="navbar-form navbar-left">
+	        <div class="form-group">
+	          <input type="text" class="form-control" placeholder="Search">
+	        </div>
+	        <button type="submit" class="btn btn-default">Submit</button>
+	      </form>
+	      <ul class="nav navbar-nav navbar-right">
+	        <li><a href="#">Link</a></li>
+	        <li class="dropdown">
+	          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+	          <ul class="dropdown-menu">
+	            <li><a href="#">Action</a></li>
+	            <li><a href="#">Another action</a></li>
+	            <li><a href="#">Something else here</a></li>
+	            <li role="separator" class="divider"></li>
+	            <li><a href="#">Separated link</a></li>
+	          </ul>
+	        </li>
+	      </ul>
+	    </div><!-- /.navbar-collapse -->
+	  </div><!-- /.container-fluid -->
+	</nav>
 
-<!-- 	<div title="Thailand" id="thailand" class="imageContainer">Thailand</div>
-	<div title="Japan" id="japan" class="imageContainer">Japan</div>
-	<div title="South Korea" id="korea" class="imageContainer">South Korea</div>
-	<div title="Hong Kong" id="hongkong" class="imageContainer">Hong Kong</div>
-	<div title="Singapore" id="singapore" class="imageContainer">Singapore</div>
-	<div title="India" id="india" class="imageContainer">India</div>
-	<div title="Nepal" id="nepal" class="imageContainer">Nepal</div>
-	<div title="Ireland" id="ireland" class="imageContainer">Ireland</div> -->
 
 	<div class="container">
-		<div class="row">
-			<div class="col-md-3 col-sm-6 imageContainer" title="Thailand" id="thailand">Thailand</div>
-			<div class="col-md-3 col-sm-6 imageContainer" title="Japan" id="japan">Japan</div>
-			<div class="col-md-3 col-sm-6 imageContainer" title="South Korea" id="korea">South Korea</div>
-			<div class="col-md-3 col-sm-6 imageContainer" title="Hong Kong" id="hongkong">Hong Kong</div>
+		<div class="jumbotron">
+			<h1>Where's Matt At?</h1>
+			<h2 id="globe">
+				<i class="fas fa-globe-americas"></i>
+			</h2>
+			<p title="Introduction Paragraph" id="intro-paragraph">I love to travel and capture beauty in different places.  Here are images from some of those places.</p>
+			<hr>
 		</div>
+
 		<div class="row">
-			<div class="col-md-3 imageContainer" title="Singapore" id="singapore">Singapore</div>
-			<div class="col-md-3 imageContainer" title="India" id="india">India</div>
-			<div class="col-md-3 imageContainer" title="Nepal" id="nepal">Nepal</div>
-			<div class="col-md-3 imageContainer" title="Ireland" id="ireland">Ireland</div>	
+			<div class="col-lg-3 col-md-4 col-sm-6">
+				<div class="thumbnail">
+					<img src="/Users/matthewcline/Documents/images_wheresmattat/thailand.jpeg">
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-4 col-sm-6">
+				<div class="thumbnail">
+					<img src="/Users/matthewcline/Documents/images_wheresmattat/japan.jpeg">
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-4 col-sm-6">
+				<div class="thumbnail">
+					<img src="/Users/matthewcline/Documents/images_wheresmattat/korea.jpeg">
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-4 col-sm-6">
+				<div class="thumbnail">
+					<img src="/Users/matthewcline/Documents/images_wheresmattat/hongkong.jpeg">
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-4 col-sm-6">
+				<div class="thumbnail">
+					<img src="/Users/matthewcline/Documents/images_wheresmattat/singapore.jpeg">
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-4 col-sm-6">
+				<div class="thumbnail">
+					<img src="/Users/matthewcline/Documents/images_wheresmattat/india.jpeg">
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-4 col-sm-6">
+				<div class="thumbnail">
+					<img src="/Users/matthewcline/Documents/images_wheresmattat/nepal.jpeg">
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-4 col-sm-6">
+				<div class="thumbnail">
+					<img src="/Users/matthewcline/Documents/images_wheresmattat/ireland.jpeg">
+				</div>
+			</div>
 		</div>
 	</div>
 
