@@ -1,9 +1,13 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<!-- As a side note, if you can't get the <hr> element to appear correctly on mobile devices then see Section 7 Lecture 87 on Web Developer Bootcamp -->
 
     <link rel="stylesheet" type="text/css" href="wheresmattat.css">
 
@@ -13,77 +17,11 @@
 
     <link href="https://fonts.googleapis.com/css?family=Lobster|Pacifico" rel="stylesheet">
 
-	<!-- Bootstrap 3 Latest compiled and minified CSS -->
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
-
-	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" crossorigin="anonymous"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
-
-    <!-- Bootstrap 4 -->
-<!--     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.0/css/bootstrap.min.css" integrity="sha384-PDle/QlgIONtM1aqA2Qemk5gPOE7wFq8+Em+G/hmo5Iq0CCmYZLv3fVRDJ4MMwEA" crossorigin="anonymous">
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.0/js/bootstrap.min.js" integrity="sha384-7aThvCh9TypR7fIc2HV4O/nFMVCBwyIUKL8XCtKE+8xgCgl/PQGuFsvShjr74PBp" crossorigin="anonymous"></script> -->
-
-	<!-- Makes bootstrap styled website responsive on mobile -->
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<!-- As a side note, if you can't get the <hr> element to appear correctly on mobile devices then see Section 7 Lecture 87 on Web Developer Bootcamp -->
-
-
     <title>Where's Matt At?</title>
   </head>
   <body>
-	<nav class="navbar navbar-default navbar-fixed-top">
-	  <div class="container">
-	    <!-- Brand and toggle get grouped for better mobile display -->
-	    <div class="navbar-header">
-	      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-	        <span class="sr-only">Toggle navigation</span>
-	        <span class="icon-bar"></span>
-	        <span class="icon-bar"></span>
-	        <span class="icon-bar"></span>
-	      </button>
-	      <a class="navbar-brand" href="#">Home</a>
-	    </div>
 
-	    <!-- Collect the nav links, forms, and other content for toggling -->
-	    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-	      <ul class="nav navbar-nav">
-	        <li class="active"><a href="#">Where's Matt At? <span class="sr-only">(current)</span></a></li>
-	        <li><a href="#">Link</a></li>
-	        <li class="dropdown">
-	          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
-	          <ul class="dropdown-menu">
-	            <li><a href="#">Action</a></li>
-	            <li><a href="#">Another action</a></li>
-	            <li><a href="#">Something else here</a></li>
-	            <li role="separator" class="divider"></li>
-	            <li><a href="#">Separated link</a></li>
-	            <li role="separator" class="divider"></li>
-	            <li><a href="#">One more separated link</a></li>
-	          </ul>
-	        </li>
-	      </ul>
-	      <ul class="nav navbar-nav navbar-right">
-	        <li><a href="#">Link</a></li>
-	        <li class="dropdown">
-	          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
-	          <ul class="dropdown-menu">
-	            <li><a href="#">Action</a></li>
-	            <li><a href="#">Another action</a></li>
-	            <li><a href="#">Something else here</a></li>
-	            <li role="separator" class="divider"></li>
-	            <li><a href="#">Separated link</a></li>
-	          </ul>
-	        </li>
-	      </ul>
-	    </div><!-- /.navbar-collapse -->
-	  </div><!-- /.container-fluid -->
-	</nav>
-
-		<!-- Bootstrap experiment -->
+	<!-- Bootstrap experiment -->
 	<!-- <header>
 	  <div class="overlay"></div>
 	  <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
@@ -116,16 +54,78 @@
 	<!-- Adapted from: https://startbootstrap.com/snippets/video-header/ -->
 
 	<div class="container">
-		<div class="jumbotron">
+<!-- 		<div class="jumbotron">
 			<h1>Where's Matt At?</h1>
 			<h2 id="globe">
 				<i class="fas fa-globe-americas"></i>
 			</h2>
 			<p title="Introduction Paragraph" id="intro-paragraph">I love to travel and capture beauty in different places.  Here are images from some of those places.</p>
 			<hr>
+		</div> -->
+
+		<div class="d-flex justify-content-start">
+			<div class="card bg-light text-white m-4">
+			  <img class="card-img" src="/Users/matthewcline/Documents/images_wheresmattat/thailand4.jpeg" alt="Card image">
+			  <div class="card-img-overlay">
+			    <h5 class="card-title">Card title</h5>
+			  </div>
+			</div>
+
+			<div class="card bg-light text-white m-4">
+			  <img class="card-img" src="/Users/matthewcline/Documents/images_wheresmattat/japan.jpeg" alt="Card image">
+			  <div class="card-img-overlay">
+			    <h5 class="card-title">Card title</h5>
+			  </div>
+			</div>
+
+			<div class="card bg-light text-white m-4">
+			  <img class="card-img" src="/Users/matthewcline/Documents/images_wheresmattat/korea.jpeg" alt="Card image">
+			  <div class="card-img-overlay">
+			    <h5 class="card-title">Card title</h5>
+			  </div>
+			</div>
 		</div>
 
-		<div class="row">
+		<div class="d-flex justify-content-start">
+			<div class="card bg-light text-white m-4">
+			  <img class="card-img" src="/Users/matthewcline/Documents/images_wheresmattat/hongkong.jpeg" alt="Card image">
+			  <div class="card-img-overlay">
+			    <h5 class="card-title">Card title</h5>
+			  </div>
+			</div>
+
+			<div class="card bg-light text-white m-4">
+			  <img class="card-img" src="/Users/matthewcline/Documents/images_wheresmattat/singapore.jpeg" alt="Card image">
+			  <div class="card-img-overlay">
+			    <h5 class="card-title">Card title</h5>
+			  </div>
+			</div>
+
+			<div class="card bg-light text-white m-4">
+			  <img class="card-img" src="/Users/matthewcline/Documents/images_wheresmattat/india.jpeg" alt="Card image">
+			  <div class="card-img-overlay">
+			    <h5 class="card-title">Card title</h5>
+			  </div>
+			</div>
+		</div>
+
+		<div class="d-flex justify-content-start">
+			<a href="nepal.html" class="card bg-light text-white m-4">
+			  <img class="card-img" src="/Users/matthewcline/Documents/images_wheresmattat/nepal.jpeg" alt="Card image">
+			  <div class="card-img-overlay">
+			    <h5 class="card-title">Card title</h5>
+			  </div>
+			</a>
+
+			<div class="card bg-light text-white m-4">
+			  <img class="card-img" src="/Users/matthewcline/Documents/images_wheresmattat/ireland.jpeg" alt="Card image">
+			  <div class="card-img-overlay">
+			    <h5 class="card-title">Card title</h5>
+			  </div>
+			</div>
+		</div>
+
+		<!-- <div class="row">
 			<div class="col-lg-3 col-md-4 col-sm-6">
 				<div class="thumbnail">
 					<img src="/Users/matthewcline/Documents/images_wheresmattat/thailand.jpeg">
@@ -166,8 +166,14 @@
 					<img src="/Users/matthewcline/Documents/images_wheresmattat/ireland.jpeg">
 				</div>
 			</div>
-		</div>
+		</div> -->
 	</div>
+
+	<!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
   </body>
 </html>
