@@ -21,8 +21,37 @@
   </head>
   <body>
 
-	<!-- Bootstrap experiment -->
-	<!-- <header>
+	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+	  <div class="container">
+		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+		    <span class="navbar-toggler-icon"></span>
+		  </button>
+		  <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+		    <a class="navbar-brand" href="home.html">Home</a>
+		    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+	    	  <li class="nav-item">
+		        <a class="nav-link" href="#">About Me</a>
+		      </li>
+		      <li class="nav-item">
+		        <a class="nav-link" href="#">Projects</a>
+		      </li>
+		      <li class="nav-item active">
+		        <a class="nav-link" href="#">Travel <span class="sr-only">(current)</span></a>
+		      </li>
+			      <li class="nav-item">
+		        <a class="nav-link" href="#">Recipes</a>
+		      </li>
+		    </ul>
+		    <form class="form-inline my-2 my-lg-0">
+		      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+		      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+		    </form>
+		  </div>
+	  </div>
+	</nav>
+
+		<!-- Bootstrap experiment -->
+	<header>
 	  <div class="overlay"></div>
 	  <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
 	    <source src="/Users/matthewcline/Downloads/IMG_2329_smaller.mp4" type="video/mp4">
@@ -39,91 +68,110 @@
 	<section class="my-5">
 	  <div class="container">
 	    <div class="row">
-	      <div class="col-md-8 mx-auto">
-	        <p>The HTML5 video element uses an mp4 video as a source. Change the source video to add in your own background! The header text is vertically centered using flex utilities that are build into Bootstrap 4.</p>
-	        <p>The overlay color can be changed by changing the <code>background-color</code> of the <code>.overlay</code> class in the CSS.</p>
-	        <p>Set the mobile fallback image in the CSS by changing the background image of the header element within the media query at the bottom of the CSS snippet.</p>
-	        <p class="mb-0">
+	      <div class="col-md-8 mx-auto text-center">
+	        <!-- <p>The overlay color can be changed by changing the <code>background-color</code> of the <code>.overlay</code> class in the CSS.</p> -->
+	        <!-- <p>Set the mobile fallback image in the CSS by changing the background image of the header element within the media query at the bottom of the CSS snippet.</p> -->
+<!-- 	        <p class="mb-0">
 	          Created by <a href="https://startbootstrap.com">Start Bootstrap</a>
-	        </p>
+	        </p> -->
+			<h2 id="globe">
+				<i class="fas fa-globe-americas"></i>
+				<i class="fas fa-globe-africa"></i>
+				<i class="fas fa-globe-asia"></i>
+			</h2>
+			<p class="mt-4">I love to travel and capture beauty in different places.  Here are some of those places.</p>
 	      </div>
 	    </div>
+	    <hr>
 	  </div>
-	</section> -->
+	</section>
+
 	<!-- End Bootstrap experiment -->
 	<!-- Adapted from: https://startbootstrap.com/snippets/video-header/ -->
 
-	<div class="container">
-<!-- 		<div class="jumbotron">
-			<h1>Where's Matt At?</h1>
-			<h2 id="globe">
-				<i class="fas fa-globe-americas"></i>
-			</h2>
-			<p title="Introduction Paragraph" id="intro-paragraph">I love to travel and capture beauty in different places.  Here are images from some of those places.</p>
-			<hr>
-		</div> -->
+	<!-- Maybe look into Material UI to see how to have an image gallery that uses all space -->
+	<section id="gallery">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-4 p-3">
+					<a href="nepal.html" class="card bg-light card-img-grayscale">
+					  <img class="card-img" src="/Users/matthewcline/Documents/images_wheresmattat/nepal.jpeg" alt="Card image">
+					  <div class="card-img-overlay">
+					    <h2 class="card-title">Nepal</h2>
+					  </div>
+					</a>
+				</div>
 
-		<div class="d-flex justify-content-start">
-			<div class="card bg-light text-white m-4">
-			  <img class="card-img" src="/Users/matthewcline/Documents/images_wheresmattat/thailand4.jpeg" alt="Card image">
-			  <div class="card-img-overlay">
-			    <h5 class="card-title">Card title</h5>
-			  </div>
+				<div class="col-lg-4 p-3">
+					<a href="#" class="card bg-light card-img-grayscale">
+					  <img class="card-img" src="/Users/matthewcline/Documents/images_wheresmattat/india.jpeg" alt="Card image">
+					  <div class="card-img-overlay">
+					    <h2 class="card-title">India</h2>
+					  </div>
+					</a>
+				</div>
+
+				<div class="col-lg-4 p-3">
+					<a href="#" class="card bg-light card-img-grayscale">
+					  <img class="card-img" src="/Users/matthewcline/Documents/images_wheresmattat/hongkong.jpeg" alt="Card image">
+					  <div class="card-img-overlay">
+					    <h2 class="card-title">Hong Kong</h2>
+					  </div>
+					</a>
+				</div>
 			</div>
 
-			<div class="card bg-light text-white m-4">
-			  <img class="card-img" src="/Users/matthewcline/Documents/images_wheresmattat/japan.jpeg" alt="Card image">
-			  <div class="card-img-overlay">
-			    <h5 class="card-title">Card title</h5>
-			  </div>
+			<div class="row">
+				<div class="col-lg-4 p-3">
+					<a href="nepal.html" class="card bg-light card-img-grayscale">
+					  <img class="card-img" src="/Users/matthewcline/Documents/images_wheresmattat/japan.jpeg" alt="Card image">
+					  <div class="card-img-overlay">
+					    <h2 class="card-title">Japan</h2>
+					  </div>
+					</a>
+				</div>
+
+				<div class="col-lg-4 p-3">
+					<a href="#" class="card bg-light card-img-grayscale">
+					  <img class="card-img" src="/Users/matthewcline/Documents/images_wheresmattat/korea.jpeg" alt="Card image">
+					  <div class="card-img-overlay">
+					    <h2 class="card-title">South Korea</h2>
+					  </div>
+					</a>
+				</div>
+
+				<div class="col-lg-4 p-3">
+					<a href="#" class="card bg-light card-img-grayscale">
+					  <img class="card-img" src="/Users/matthewcline/Documents/images_wheresmattat/ireland.jpeg" alt="Card image">
+					  <div class="card-img-overlay">
+					    <h2 class="card-title">Ireland</h2>
+					  </div>
+					</a>
+				</div>
 			</div>
 
-			<div class="card bg-light text-white m-4">
-			  <img class="card-img" src="/Users/matthewcline/Documents/images_wheresmattat/korea.jpeg" alt="Card image">
-			  <div class="card-img-overlay">
-			    <h5 class="card-title">Card title</h5>
-			  </div>
+			<div class="row">
+				<div class="col-lg-4 p-3">
+					<a href="nepal.html" class="card bg-light card-img-grayscale">
+					  <img class="card-img" src="/Users/matthewcline/Documents/images_wheresmattat/thailand.jpeg" alt="Card image">
+					  <div class="card-img-overlay">
+					    <h2 class="card-title">Thailand</h2>
+					  </div>
+					</a>
+				</div>
+
+				<div class="col-lg-4 p-3">
+					<a href="#" class="card bg-light card-img-grayscale">
+					  <img class="card-img" src="/Users/matthewcline/Documents/images_wheresmattat/singapore.jpeg" alt="Card image">
+					  <div class="card-img-overlay">
+					    <h2 class="card-title">Singapore</h2>
+					  </div>
+					</a>
+				</div>
+
 			</div>
 		</div>
-
-		<div class="d-flex justify-content-start">
-			<div class="card bg-light text-white m-4">
-			  <img class="card-img" src="/Users/matthewcline/Documents/images_wheresmattat/hongkong.jpeg" alt="Card image">
-			  <div class="card-img-overlay">
-			    <h5 class="card-title">Card title</h5>
-			  </div>
-			</div>
-
-			<div class="card bg-light text-white m-4">
-			  <img class="card-img" src="/Users/matthewcline/Documents/images_wheresmattat/singapore.jpeg" alt="Card image">
-			  <div class="card-img-overlay">
-			    <h5 class="card-title">Card title</h5>
-			  </div>
-			</div>
-
-			<div class="card bg-light text-white m-4">
-			  <img class="card-img" src="/Users/matthewcline/Documents/images_wheresmattat/india.jpeg" alt="Card image">
-			  <div class="card-img-overlay">
-			    <h5 class="card-title">Card title</h5>
-			  </div>
-			</div>
-		</div>
-
-		<div class="d-flex justify-content-start">
-			<a href="nepal.html" class="card bg-light text-white m-4">
-			  <img class="card-img" src="/Users/matthewcline/Documents/images_wheresmattat/nepal.jpeg" alt="Card image">
-			  <div class="card-img-overlay">
-			    <h5 class="card-title">Card title</h5>
-			  </div>
-			</a>
-
-			<div class="card bg-light text-white m-4">
-			  <img class="card-img" src="/Users/matthewcline/Documents/images_wheresmattat/ireland.jpeg" alt="Card image">
-			  <div class="card-img-overlay">
-			    <h5 class="card-title">Card title</h5>
-			  </div>
-			</div>
-		</div>
+	</section>
 
 		<!-- <div class="row">
 			<div class="col-lg-3 col-md-4 col-sm-6">
@@ -167,7 +215,6 @@
 				</div>
 			</div>
 		</div> -->
-	</div>
 
 	<!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
