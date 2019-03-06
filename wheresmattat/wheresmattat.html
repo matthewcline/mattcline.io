@@ -13,21 +13,19 @@
 
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
 
-    <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
-
-    <link href="https://fonts.googleapis.com/css?family=Lobster|Pacifico" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Nanum+Gothic|Roboto:300|Pacifico" rel="stylesheet">
 
     <title>Where's Matt At?</title>
   </head>
   <body>
 
-	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  	<nav id="mainNavbar" class="navbar navbar-expand-md navbar-light bg-white fixed-top">
 	  <div class="container">
-		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
 		    <span class="navbar-toggler-icon"></span>
 		  </button>
-		  <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-		    <a class="navbar-brand" href="home.html">Home</a>
+		  <div class="collapse navbar-collapse" id="navbarToggler">
+		    <a class="navbar-brand" href="home.html">Matthew Cline</a>
 		    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
 	    	  <li class="nav-item">
 		        <a class="nav-link" href="#">About Me</a>
@@ -35,55 +33,53 @@
 		      <li class="nav-item">
 		        <a class="nav-link" href="#">Projects</a>
 		      </li>
-		      <li class="nav-item active">
-		        <a class="nav-link" href="#">Travel <span class="sr-only">(current)</span></a>
+		      <li class="nav-item">
+		        <a class="nav-link active-link" href="wheresmattat.html">Travel <span class="sr-only">(current)</span></a>
 		      </li>
-			      <li class="nav-item">
+		      <li class="nav-item">
 		        <a class="nav-link" href="#">Recipes</a>
 		      </li>
 		    </ul>
-		    <form class="form-inline my-2 my-lg-0">
-		      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-		      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-		    </form>
 		  </div>
 	  </div>
 	</nav>
 
 		<!-- Bootstrap experiment -->
-	<header>
-	  <div class="overlay"></div>
-	  <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
-	    <source src="/Users/matthewcline/Downloads/IMG_2329_smaller.mp4" type="video/mp4">
-	  </video>
-	  <div class="container h-100">
-	    <div class="d-flex h-100 text-center align-items-center">
-	      <div class="w-100 text-white">
-	        <h1 class="display-3">Where's Matt At?</h1>
-	      </div>
-	    </div>
-	  </div>
-	</header>
+	<section class="mt-5">
+		<header>
+		  <div class="overlay"></div>
+		  <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+		    <source src="/Users/matthewcline/Downloads/IMG_2329_smaller.mp4" type="video/mp4">
+		  </video>
+		  <div class="container h-100">
+		    <div class="d-flex h-100 text-center align-items-center">
+		      <div class="w-100 text-white">
+		        <h1 class="display-3">Where's Matt At?</h1>
+		      </div>
+		    </div>
+		  </div>
+		</header>
 
-	<section class="my-5">
-	  <div class="container">
-	    <div class="row">
-	      <div class="col-md-8 mx-auto text-center">
-	        <!-- <p>The overlay color can be changed by changing the <code>background-color</code> of the <code>.overlay</code> class in the CSS.</p> -->
-	        <!-- <p>Set the mobile fallback image in the CSS by changing the background image of the header element within the media query at the bottom of the CSS snippet.</p> -->
-<!-- 	        <p class="mb-0">
-	          Created by <a href="https://startbootstrap.com">Start Bootstrap</a>
-	        </p> -->
-			<h2 id="globe">
-				<i class="fas fa-globe-americas"></i>
-				<i class="fas fa-globe-africa"></i>
-				<i class="fas fa-globe-asia"></i>
-			</h2>
-			<p class="mt-4">I love to travel and capture beauty in different places.  Here are some of those places.</p>
-	      </div>
-	    </div>
-	    <hr>
-	  </div>
+		<section class="my-5">
+		  <div class="container">
+		    <div class="row">
+		      <div class="col-md-8 mx-auto text-center">
+		        <!-- <p>The overlay color can be changed by changing the <code>background-color</code> of the <code>.overlay</code> class in the CSS.</p> -->
+		        <!-- <p>Set the mobile fallback image in the CSS by changing the background image of the header element within the media query at the bottom of the CSS snippet.</p> -->
+	<!-- 	        <p class="mb-0">
+		          Created by <a href="https://startbootstrap.com">Start Bootstrap</a>
+		        </p> -->
+				<h2 id="globe">
+					<i class="fas fa-globe-americas"></i>
+					<i class="fas fa-globe-africa"></i>
+					<i class="fas fa-globe-asia"></i>
+				</h2>
+				<p class="mt-4">I love to travel and capture beauty in different places.  Here are some of those places.</p>
+		      </div>
+		    </div>
+		    <hr id="travelHr">
+		  </div>
+		</section>
 	</section>
 
 	<!-- End Bootstrap experiment -->

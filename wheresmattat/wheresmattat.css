@@ -3,11 +3,10 @@ html, body {
 }
 
 body {
-	font-family: 'Nunito', sans-serif;
-	font-size: 16px;
+	font-family: 'Nanum Gothic', sans-serif;
 }
 
-h1 {
+/*h1 {
 	text-align: center;
 	margin-top: 30px;
 	margin-bottom: 5px;
@@ -15,16 +14,28 @@ h1 {
   text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
                0px 8px 13px rgba(0,0,0,0.1),
                0px 18px 23px rgba(0,0,0,0.1);
+}*/
+
+#mainNavbar .navbar-brand {
+	color: #003262;
 }
 
-#map-icon {
-	text-align: center;
-	font-size: 5.6rem;
+#mainNavbar .nav-link:hover {
+	color: #003262;
+}
+
+#mainNavbar .active-link {
+	color: #003262;
+}
+
+p {
+	font-family: 'Roboto', sans-serif;
 }
 
 #globe {
 	text-align: center;
 	font-size: 3.6rem;
+	opacity: 0.75;
 }
 
 #intro-paragraph {
@@ -32,7 +43,19 @@ h1 {
 	margin: 30px auto;
 }
 
-hr {
+.homePageContactLink {
+	font-size: 2.25rem;
+}
+
+.homePageContactLinkIcon {
+	color: rgba(0,0,0,.5);
+}
+
+.homePageContactLinkIcon:hover {
+	color: #003262;
+}
+
+#travelHr {
 	width: 75%;
     border: 0;
     height: 1px;
@@ -105,3 +128,7 @@ header .overlay {
 }
 /*End Bootstrap experiement*/
 /*Adapted from: https://startbootstrap.com/snippets/video-header/*/
+
+/*@media (max-width: 400px) {
+	One idea is to shrink the font once you reach the small size
+}*/
