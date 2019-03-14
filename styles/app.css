@@ -64,9 +64,18 @@ p {
 }
 
 .card-img-grayscale {
-    -webkit-filter: grayscale(100%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
-	filter: grayscale(100%); /* FF 35+ */
-	color: transparent;
+
+  /*Grayscale turned on: */
+/*  -webkit-filter: grayscale(100%);
+	filter: grayscale(100%); 
+	color: transparent;*/
+
+  /*Grayscale turned off: */
+  -webkit-filter: grayscale(0%);
+  filter: grayscale(0%); 
+  color: white;
+  font-family: 'Pacifico', cursive;
+  text-align: center;
  }
 
 .card-img-grayscale:hover {
