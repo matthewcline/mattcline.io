@@ -4,7 +4,7 @@ html, body {
 
 body {
 	font-family: 'Nanum Gothic', sans-serif;
-	padding-top: 45px;
+	/*padding-top: 45px;*/
 }
 
 /*h1 {
@@ -54,6 +54,13 @@ p {
 
 .homePageContactLinkIcon:hover {
 	color: #003262;
+}
+
+#homeContainer {
+  /*background: url("/Users/matthewcline/Downloads/2.jpeg");*/
+  background-image: url("/Users/matthewcline/Downloads/2.jpeg");
+  background-size: cover;
+  height: 765px;
 }
 
 #travelHr {
