@@ -17,12 +17,24 @@ body {
                0px 18px 23px rgba(0,0,0,0.1);
 }*/
 
-#mainNavbar .navbar-brand {
-	color: #003262;
+/*#mainNavbar .navbar-brand {
+	color: ;
+}*/
+
+#mainNavbar .nav-link {
+  color: white;
 }
 
 #mainNavbar .nav-link:hover {
 	color: #003262;
+}
+
+a:hover {
+  color: #003262;
+}
+
+p a {
+  color: #003262;
 }
 
 #mainNavbar .active-link {
@@ -49,7 +61,7 @@ p {
 }
 
 .homePageContactLinkIcon {
-	color: rgba(255,255,255,.9);
+	color: white;
 }
 
 .homePageContactLinkIcon:hover {
@@ -58,7 +70,7 @@ p {
 
 #homeContainer {
   /*background: url("/Users/matthewcline/Downloads/2.jpeg");*/
-  background-image: url("/Users/matthewcline/Downloads/2.jpeg");
+  background-image: url("/Users/matthewcline/Downloads/8.jpeg");
   background-size: cover;
   height: 765px;
 }
@@ -71,8 +83,11 @@ p {
 }
 
 #homeName {
-  font-family: 'Pacifico', cursive;
-  letter-spacing: 1px;
+/*  font-family: 'Roboto', sans-serif;
+  font-weight: 500;*/
+  font-family: 'Nunito', sans-serif;
+  font-weight: 600;
+  letter-spacing: 1.5px;
 }
 
 .jumbotron-shadow {
