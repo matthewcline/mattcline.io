@@ -70,7 +70,7 @@ p {
 
 #homeContainer {
   /*background: url("/Users/matthewcline/Downloads/2.jpeg");*/
-  background-image: url("/Users/matthewcline/Downloads/8.jpeg");
+  background-image: url("/Users/matthewcline/Downloads/10.jpeg");
   background-size: cover;
   height: 765px;
 }
@@ -90,11 +90,11 @@ p {
   letter-spacing: 1.5px;
 }
 
-.jumbotron-shadow {
+/*.jumbotron-shadow {
   text-shadow: 0px 4px 3px rgba(0,0,0,0.1),
                0px 3px 3px rgba(0,0,0,0.1),
                0px 3px 3px rgba(0,0,0,0.1)
-}
+}*/
 
 .card-img-grayscale {
 
