@@ -22,51 +22,53 @@
   </head>
   <body>
 
-  	<div id="homeContainer" class="container-fluid">
-
-  		<div class="container">
-	  		<div class="row">
-	  			<div class="col-12">
-					<h1 class="display-xl-1 display-4 text-white jumbotron-shadow mt-4 text-center mb-0" id="homeName">Matthew Cline</h1>
-				</div>
+  	<!-- <div id="homeContainer" class="container-fluid"> -->
+  		<div id="heading">
+  			<!-- <div class="row"> -->
+  			<div id="homeText" class="container"></div>
+				<h1 class="display-xl-1 display-4 jumbotron-shadow text-center" id="homeName">Matthew Cline</h1>
+				<h4 class="text-center text-white">Full stack developer with JS, React Native, and jQuery experience</h4>
 			</div>
-<!-- 			<div class="row">
-				<div class="col-12">
-		  			<p class="lead text-white">Full stack developer</p>
-		  		</div>
-		  	</div>
-		  	<div class="row">
-				<div id="homePageContactLinks" class="col-12">
-				  <a class="btn homePageContactLink" href="https://github.com/matthewcline" target="_blank"><i class="fab fa-github homePageContactLinkIcon"></i></a>
-				  <a class="btn homePageContactLink" href="https://www.linkedin.com/in/matthew-cline/" target="_blank"><i class="fab fa-linkedin homePageContactLinkIcon"></i></a>
-				  <a class="btn homePageContactLink" href="https://angel.co/matthew-cline-4" target="_blank"><i class="fab fa-angellist homePageContactLinkIcon"></i></a>
-				</div>
-			</div> -->
-		</div>
+		<!-- 			<div class="row">
+						<div class="col-12">
+				  			<p class="lead text-white">Full stack developer</p>
+				  		</div>
+				  	</div>
+				  	<div class="row">
+						<div id="homePageContactLinks" class="col-12">
+						  <a class="btn homePageContactLink" href="https://github.com/matthewcline" target="_blank"><i class="fab fa-github homePageContactLinkIcon"></i></a>
+						  <a class="btn homePageContactLink" href="https://www.linkedin.com/in/matthew-cline/" target="_blank"><i class="fab fa-linkedin homePageContactLinkIcon"></i></a>
+						  <a class="btn homePageContactLink" href="https://angel.co/matthew-cline-4" target="_blank"><i class="fab fa-angellist homePageContactLinkIcon"></i></a>
+						</div>
+					</div> -->
 
 
-
-	  	<nav id="mainNavbar" class="navbar navbar-expand-md">
-		  <div class="container">
-			  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
-			    <span class="navbar-toggler-icon"></span>
-			  </button>
-			  <div class="collapse navbar-collapse justify-content-center" id="navbarToggler">
-			    <!-- <a class="navbar-brand text-white" href="index.html">MC</a> -->
-			    <ul class="navbar-nav mt-2 mt-lg-0">
-		    	  <li class="nav-item">
-			        <a class="nav-link active-link" href="index.html">About</a>
-			      </li>
-			      <li class="nav-item">
-			        <a class="nav-link" href="#">Projects</a>
-			      </li>
-			      <li class="nav-item">
-			        <a class="nav-link" href="docs/wheresmattat.html">Travel <span class="sr-only">(current)</span></a>
-			      </li>
-			    </ul>
+<!-- 
+		  	<nav id="mainNavbar" class="navbar navbar-expand-md pt-0">
+			  <div class="container">
+				  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+				    <span class="navbar-toggler-icon"></span>
+				  </button>
+				  <div class="collapse navbar-collapse justify-content-center" id="navbarToggler">
+				    <a class="navbar-brand text-white" href="index.html">MC</a>
+				    <ul class="navbar-nav">
+			    	  <li class="nav-item">
+				        <a class="nav-link active-link" href="index.html">About</a>
+				      </li>
+				      <li class="nav-item">
+				        <a class="nav-link" href="#">Projects</a>
+				      </li>
+				      <li class="nav-item">
+				        <a class="nav-link" href="docs/wheresmattat.html">Travel <span class="sr-only">(current)</span></a>
+				      </li>
+				    </ul>
+				  </div>
 			  </div>
-		  </div>
-		</nav>
+			</nav> -->
+
+		</div>
+			<!-- </div> -->
+		<!-- </div> -->
 
 	
 
@@ -82,8 +84,15 @@
 	  	</div>
 	</div> -->
 
-		<div class="container mt-2">
-	    	<div class="row align-items-start justify-content-center">
+		<div id="homeContainer" class="container-fluid">
+			<div id="photoContainer" class="container bg-light d-flex flex-row">
+				<div class="row justify-content-center"">
+					<div class="col-4">
+						<img id="selfPortrait" src="/Users/matthewcline/Downloads/1v2.jpeg" alt="Card image">
+					</div>
+				</div>
+			</div>
+	    	<div class="row align-items-start justify-content-center pt-3">
 	    		<!-- <div class="col-xs-4 order-2 order-md-1"> -->
 	    		<div class="col-md-4">
 	    			<div class="card bg-light text-white mt-3 m-1">
@@ -94,7 +103,7 @@
 	    		<div class="col-md-6">
 	    		<!-- <div class="col-xs-6 order-1 order-md-2">
  -->	    			<!-- <div class="jumbotron mt-3 m-1 bg-gradient-primary"> -->
-	    			<div class="container mt-3 m-1 text-white">
+	    			<div id="aboutText" class="container mt-3 m-1 bg-light">
 					  <!-- <h1 class="display-4">Hi there!</h1> -->
 					  <p class="lead">Hi, my name is Matthew Cline and I am a software engineer.  I graduated from UC Berkeley in 2017, worked at <a href="https://www.adobe.com" target="_blank">Adobe</a> in San Francisco from 2017 - 2018, and took some time to work on <a href="#">projects</a> and <a href="wheresmattat.html">travel</a>.</p>
 					  <p class="lead">I'm currently looking for opportunities in New York City.</p>
