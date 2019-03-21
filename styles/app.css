@@ -1,27 +1,21 @@
 html, body {
 	height: 100%;
-  background-color: gray;
 }
 
 body {
 	font-family: 'Nanum Gothic', sans-serif;
-	/*padding-top: 45px;*/
 
-/*  background: #8A2387;  
-  background: -webkit-linear-gradient(to right, #F27121, #E94057, #8A2387); 
-  background: linear-gradient(to right, #F27121, #E94057, #8A2387);*/
+background-color: white;
+
+/*background: #1FA2FF; 
+background: -webkit-linear-gradient(to right, #A6FFCB, #12D8FA, #1FA2FF);  
+background: linear-gradient(to right, #A6FFCB, #12D8FA, #1FA2FF); */
+
+
+
 
 }
 
-h1 {
-/*	text-align: center;
-	margin-top: 30px;
-	margin-bottom: 5px;
-	font-size: 2.8rem;*/
-  text-shadow: 0px 1px 3px rgba(0,50,98,0.4),
-               0px 1px 3px rgba(0,50,98,0.1),
-               0px 1px 3px rgba(0,50,98,0.1);
-}
 
 /*#mainNavbar .navbar-brand {
 	color: ;
@@ -38,16 +32,19 @@ h1 {
 
 #photoContainer {
   margin-top: 200px;
-  height: 500px;
+  border-radius: 25px;
+  border: 2px solid white;
 }
 
 #selfPortrait {
-  margin-top: -60px;
+  margin-top: -70px;
   border-radius: 50%;
-  width: 200px;
+  border: 2px solid white;
+  padding: 0px;
+/*  width: 200px;
   height: 200px;
   position: relative;
-  overflow: hidden;
+  overflow: hidden;*/
 }
 
 a:hover {
@@ -82,7 +79,7 @@ p {
 }
 
 .homePageContactLinkIcon {
-	color: white;
+
 }
 
 .homePageContactLinkIcon:hover {
@@ -90,11 +87,9 @@ p {
 }
 
 #homeContainer {
-  /*background: url("/Users/matthewcline/Downloads/2.jpeg");*/
-  
-  height: 765px;
-
-
+  background: #f12711;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #f5af19, #f12711);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #f5af19, #f12711); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 
@@ -108,14 +103,19 @@ p {
 #homeName {
 /*  font-family: 'Roboto', sans-serif;
   font-weight: 500;*/
+  padding-top: 250px;
   font-family: 'Nunito', sans-serif;
   font-weight: 600;
   letter-spacing: 1.5px;
   color: white;
+  text-shadow: 0px 1px 3px rgba(0,50,98,0.4),
+             0px 1px 3px rgba(0,50,98,0.1),
+             0px 1px 3px rgba(0,50,98,0.1);
 }
 
-#homeText {
-  padding-top: 250px;
+#homeTopImage {
+  background-image: url("/Users/matthewcline/Downloads/2.jpeg");
+  background-size: cover;
 }
 
 /*.jumbotron-shadow {
@@ -195,14 +195,11 @@ header .overlay {
   z-index: 1;
 }
 
-#heading {
-background-image: url("/Users/matthewcline/Downloads/2.jpeg");
+/*#heading {
+  background-image: url("/Users/matthewcline/Downloads/2.jpeg");
   background-size: cover;
   height: 790px;
-
-
-
-}
+}*/
 
 @media (pointer: coarse) and (hover: none) {
   header {
