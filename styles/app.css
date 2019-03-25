@@ -5,7 +5,11 @@ html, body {
 body {
 	font-family: 'Nanum Gothic', sans-serif;
 
-background-color: white;
+background-image: url("/Users/matthewcline/Downloads/2.jpeg");
+background-size: cover;
+height: 100%;
+background-repeat: no-repeat;
+background-attachment: fixed;
 
 /*background: #1FA2FF; 
 background: -webkit-linear-gradient(to right, #A6FFCB, #12D8FA, #1FA2FF);  
@@ -31,7 +35,7 @@ background: linear-gradient(to right, #A6FFCB, #12D8FA, #1FA2FF); */
 
 #introContainer {
   border-radius: 25px;
-  width: 65%;
+  width: 50%;
 }
 
 #selfPortrait {
@@ -92,15 +96,6 @@ p {
 
 #homeInfo {
   padding-top: 90px;
-
-  /*Sweet Morning*/
-background: #FF5F6D;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #FFC371, #FF5F6D);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #FFC371, #FF5F6D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-
-
-
 }
 
 
@@ -123,11 +118,11 @@ background: linear-gradient(to right, #FFC371, #FF5F6D); /* W3C, IE 10+/ Edge, F
              0px 1px 3px rgba(0,50,98,0.1);
 }
 
-#homeTopImage {
+/*#homeTopImage {
   background-image: url("/Users/matthewcline/Downloads/2.jpeg");
   background-size: cover;
   height: 100%;
-}
+}*/
 
 /*.jumbotron-shadow {
   text-shadow: 0px 4px 3px rgba(0,0,0,0.1),
@@ -157,12 +152,6 @@ background: linear-gradient(to right, #FFC371, #FF5F6D); /* W3C, IE 10+/ Edge, F
 	color: white;
 	font-family: 'Pacifico', cursive;
  	text-align: center;
-}
-
-.jumbotron-home {
-  background-image: url("/Users/matthewcline/Downloads/2.jpeg");
-  background-size: cover;
-  height: 720px;
 }
 
  /*Bootstrap experiment*/
@@ -205,12 +194,6 @@ header .overlay {
   opacity: 0.2;
   z-index: 1;
 }
-
-/*#heading {
-  background-image: url("/Users/matthewcline/Downloads/2.jpeg");
-  background-size: cover;
-  height: 790px;
-}*/
 
 @media (pointer: coarse) and (hover: none) {
   header {
