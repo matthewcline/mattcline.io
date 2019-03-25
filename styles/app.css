@@ -21,20 +21,17 @@ background: linear-gradient(to right, #A6FFCB, #12D8FA, #1FA2FF); */
 	color: ;
 }*/
 
-.navbar {
-  background: transparent;
-}
-
-#mainNavbar .nav-link {
+#navbar .nav-link {
   color: white;
 }
 
-#mainNavbar .nav-link:hover {
+#navbar .nav-link:hover {
 	color: #003262;
 }
 
 #introContainer {
   border-radius: 25px;
+  width: 65%;
 }
 
 #selfPortrait {
@@ -89,12 +86,12 @@ p {
 }
 
 .homeText {
-  margin-top: 20%;
+  margin-top: 18%;
   padding-bottom: 20%;
 }
 
 #homeInfo {
-  padding-top: 140px;
+  padding-top: 90px;
 
   /*Sweet Morning*/
 background: #FF5F6D;  /* fallback for old browsers */
@@ -172,7 +169,7 @@ background: linear-gradient(to right, #FFC371, #FF5F6D); /* W3C, IE 10+/ Edge, F
 header {
   position: relative;
   background-color: black;
-  height: 85vh;
+  height: 100vh;
   min-height: 25rem;
   width: 100%;
   overflow: hidden;
