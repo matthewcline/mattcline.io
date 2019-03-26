@@ -4,49 +4,6 @@ html, body {
 
 body {
 	font-family: 'Nanum Gothic', sans-serif;
-
-background-image: url("/Users/matthewcline/Downloads/2.jpeg");
-background-size: cover;
-height: 100%;
-background-repeat: no-repeat;
-background-attachment: fixed;
-
-/*background: #1FA2FF; 
-background: -webkit-linear-gradient(to right, #A6FFCB, #12D8FA, #1FA2FF);  
-background: linear-gradient(to right, #A6FFCB, #12D8FA, #1FA2FF); */
-
-
-
-
-}
-
-
-/*#mainNavbar .navbar-brand {
-	color: ;
-}*/
-
-#navbar .nav-link {
-  color: white;
-}
-
-#navbar .nav-link:hover {
-	color: #003262;
-}
-
-#introContainer {
-  border-radius: 25px;
-  width: 50%;
-}
-
-#selfPortrait {
-  margin-top: -70px;
-  border-radius: 50%;
-  border: 2px solid white;
-  padding: 0px;
-/*  width: 200px;
-  height: 200px;
-  position: relative;
-  overflow: hidden;*/
 }
 
 a:hover {
@@ -57,32 +14,13 @@ p a {
   color: #003262;
 }
 
-#mainNavbar .active-link {
-	color: #003262;
-}
-
 p {
 	font-family: 'Roboto', sans-serif;
 }
 
-#globe {
-	text-align: center;
-	font-size: 3.6rem;
-	opacity: 0.75;
-}
-
-#intro-paragraph {
-	text-align: center;
-	margin: 30px auto;
-}
-
-.homePageContactLink {
-	font-size: 2.25rem;
-}
-
 .homePageContactLinkIcon {
   font-size: 2.75rem;
-  color: white;
+  color: #003262;
 }
 
 .homePageContactLinkIcon:hover {
@@ -94,21 +32,43 @@ p {
   padding-bottom: 20%;
 }
 
-#homeInfo {
-  padding-top: 90px;
+.card-img-overlay {
+  color: white;
+  font-family: 'Pacifico', cursive;
+  text-align: center;
+  transition: 0.1s linear;
+  opacity: 0;
 }
 
+.card-img-overlay:hover {
+  opacity: 1;
+}
 
-#travelHr {
-	width: 75%;
-    border: 0;
-    height: 1px;
-    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+#navbar .nav-link {
+  color: white;
+}
+
+#navbar .nav-link:hover {
+  color: #003262;
+}
+
+#selfPortrait {
+  margin-top: -70px;
+  border-radius: 50%;
+  padding: 0px;
+}
+
+#homeInfo {
+  padding-top: 120px;
+}
+
+#homeTopImage {
+  background-image: url("/Users/matthewcline/Downloads/2.jpeg");
+  background-size: cover;
+  height: 100%;
 }
 
 #homeName {
-/*  font-family: 'Roboto', sans-serif;
-  font-weight: 500;*/
   font-family: 'Nunito', sans-serif;
   font-weight: 600;
   letter-spacing: 1.5px;
@@ -118,40 +78,17 @@ p {
              0px 1px 3px rgba(0,50,98,0.1);
 }
 
-/*#homeTopImage {
-  background-image: url("/Users/matthewcline/Downloads/2.jpeg");
-  background-size: cover;
-  height: 100%;
-}*/
-
-/*.jumbotron-shadow {
-  text-shadow: 0px 4px 3px rgba(0,0,0,0.1),
-               0px 3px 3px rgba(0,0,0,0.1),
-               0px 3px 3px rgba(0,0,0,0.1)
-}*/
-
-.card-img-grayscale {
-
-  /*Grayscale turned on: */
-/*  -webkit-filter: grayscale(100%);
-	filter: grayscale(100%); 
-	color: transparent;*/
-
-  /*Grayscale turned off: */
-  -webkit-filter: grayscale(0%);
-  filter: grayscale(0%); 
-  color: white;
-  font-family: 'Pacifico', cursive;
+#globe {
   text-align: center;
- }
+  font-size: 3.6rem;
+  opacity: 0.75;
+}
 
-.card-img-grayscale:hover {
-	/*transition: filter .1s ease-in-out;*/
-	-webkit-filter: grayscale(0%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
-	filter: grayscale(0%);
-	color: white;
-	font-family: 'Pacifico', cursive;
- 	text-align: center;
+#travelHr {
+  width: 75%;
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
 }
 
  /*Bootstrap experiment*/
