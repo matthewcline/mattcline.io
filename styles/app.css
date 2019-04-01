@@ -44,6 +44,12 @@ a.nav-link {
   color: purple;
 }
 
+#navbar {
+  padding-left: 13%; 
+  padding-right: 13%; 
+  padding-top: 2%;
+}
+
 #navbar .nav-link {
   color: white;
   font-size: 1.3em;
