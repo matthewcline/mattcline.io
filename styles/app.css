@@ -30,10 +30,13 @@ a.nav-link {
 
 .card-img-overlay {
   color: white;
-  font-family: 'Pacifico', cursive;
-  text-align: center;
   transition: 0.1s linear;
   opacity: 0;
+}
+
+.card-title {
+  font-family: 'Pacifico', cursive;
+  text-align: center;
 }
 
 .card-img-overlay:hover {
