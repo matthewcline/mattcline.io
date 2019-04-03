@@ -73,7 +73,7 @@ a.nav-link {
 }
 
 #homeTopImage {
-  background-image: url("/Users/matthewcline/Downloads/2.jpeg");
+  background-image: url("../imgs/homepage.jpeg");
   background-size: cover;
   height: 90%;
   background-position-x: center;
