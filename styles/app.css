@@ -76,6 +76,7 @@ a.nav-link {
   background-image: url("/Users/matthewcline/Downloads/2.jpeg");
   background-size: cover;
   height: 90%;
+  background-position-x: center;
 }
 
 #homeName {
