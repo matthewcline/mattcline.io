@@ -1,5 +1,6 @@
 html, body {
-	height: 100%;
+  height: 100%;
+  color: white;
 }
 
 a:hover {
@@ -47,19 +48,33 @@ a.nav-link {
   color: purple;
 }
 
-#navbar {
+.navbar {
   padding-left: 13%; 
   padding-right: 13%; 
-  padding-top: 2%;
+  height: 12%;
 }
 
-#navbar .nav-link {
+.navbar .nav-link {
   color: white;
   font-size: 1.3em;
 }
 
-#navbar .nav-link:hover {
+.navbar .nav-link:hover {
   color: #003262;
+}
+
+.navbar-brand {
+  border-bottom: transparent solid 2px;
+  padding-bottom: 7px;
+}
+
+.navbar .navbar-brand:hover {
+  border-bottom: white solid 2px;
+  transition: 0.3s linear;
+}
+
+.navbar.scrolled .navbar-brand:hover {
+  border-bottom: #a5a7a8 solid 2px;
 }
 
 #mc-logo {
@@ -100,6 +115,24 @@ a.nav-link {
     border: 0;
     height: 1px;
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+/* Adapted from https://stackoverflow.com/questions/29646622/set-bootstrap-navbar-transparency-on-scroll */
+.navbar {
+  -webkit-transition: all 0.6s ease-out;
+  -moz-transition: all 0.6s ease-out;
+  -o-transition: all 0.6s ease-out;
+  -ms-transition: all 0.6s ease-out;
+  transition: all 0.6s ease-out;
+}
+
+.navbar.scrolled {
+  background: white; /* IE */
+  background: white; /* NON-IE */
+}
+
+.navbar.scrolled .nav-link {
+  color:#6c757d;
 }
 
  /*Bootstrap experiment*/
@@ -151,6 +184,7 @@ header .overlay {
     display: none;
   }
 }
+
 /*End Bootstrap experiement*/
 /*Adapted from: https://startbootstrap.com/snippets/video-header/*/
 
