@@ -4,10 +4,10 @@ function checkScroll(){
     var scrollPoint = $('.navbar').height() * 2; //The point where the navbar changes in px
     if($(window).scrollTop() > scrollPoint) {
         $('.navbar').addClass("scrolled");
-        $('#mc-logo').attr("src", "imgs/mc_scrolled.png");
+        $('#mc-logo').attr("src", "../imgs/mc_scrolled.png");
     } else{
         $('.navbar').removeClass("scrolled");
-        $('#mc-logo').attr("src", "imgs/mc.png");
+        $('#mc-logo').attr("src", "../imgs/mc.png");
     }
 }
 
