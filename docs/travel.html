@@ -1,0 +1,184 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<!-- As a side note, if you can't get the <hr> element to appear correctly on mobile devices then see Section 7 Lecture 87 on Web Developer Bootcamp -->
+
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css">
+
+    <link rel="stylesheet" type="text/css" href="../styles/app.css">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+
+    <link href="https://fonts.googleapis.com/css?family=Nanum+Gothic|Roboto:300|Pacifico" rel="stylesheet">
+
+    <title>Where's Matt At?</title>
+  </head>
+  <body>
+		<nav class="navbar navbar-expand-lg navbar-light fixed-top">
+			<a class="navbar-brand" id="logo" href="../index.html"><img id="mc-logo" src="../imgs/mc.png"></a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+				<ul class="navbar-nav">
+					<li class="nav-item pr-4">
+						<a class="nav-link" href="#">Projects</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="docs/travel.html">Travel</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+
+		<!-- Bootstrap experiment -->
+	<section>
+		<header>
+		  <div class="overlay"></div>
+		  <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+		    <source src="../videos/jumbotron.mp4" type="video/mp4">
+		  </video>
+		  <div class="container h-100">
+		    <div class="d-flex h-100 text-center align-items-center">
+		      <div class="w-100 text-white">
+		        <h1 class="display-3">Where's Matt At?</h1>
+		      </div>
+		    </div>
+		  </div>
+		</header>
+
+		<section class="my-5">
+		  <div class="container">
+		    <div class="row">
+		      <div class="col-md-9 mx-auto text-center">
+		        <!-- <p>The overlay color can be changed by changing the <code>background-color</code> of the <code>.overlay</code> class in the CSS.</p> -->
+		        <!-- <p>Set the mobile fallback image in the CSS by changing the background image of the header element within the media query at the bottom of the CSS snippet.</p> -->
+	<!-- 	        <p class="mb-0">
+		          Created by <a href="https://startbootstrap.com">Start Bootstrap</a>
+		        </p> -->
+				<h2 id="globe">
+					<i class="fas fa-globe-americas mr-4"></i>
+					<i class="fas fa-globe-africa mr-4"></i>
+					<i class="fas fa-globe-asia"></i>
+				</h2>
+				<p class="mt-4 lead">I love to travel and capture beauty in different places.  Here are some of those places.</p>
+		      </div>
+		    </div>
+		    <hr id="travelHr">
+		  </div>
+		</section>
+	</section>
+
+	<!-- End Bootstrap experiment -->
+	<!-- Adapted from: https://startbootstrap.com/snippets/video-header/ -->
+
+	<!-- Maybe look into Material UI to see how to have an image gallery that uses all space -->
+	<section id="gallery">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-4 p-3">
+					<a href="nepal.html" class="card bg-light card-img-grayscale">
+					  <img class="card-img" src="../imgs/nepal.jpeg" alt="Card image">
+					  <div class="card-img-overlay">
+					    <h2 class="card-title">Nepal</h2>
+					  </div>
+					</a>
+				</div>
+
+				<div class="col-lg-4 p-3">
+					<a href="#" class="card bg-light card-img-grayscale">
+					  <img class="card-img" src="../imgs/india.jpeg" alt="Card image">
+					  <div class="card-img-overlay">
+					    <h2 class="card-title">India</h2>
+					  </div>
+					</a>
+				</div>
+
+				<div class="col-lg-4 p-3">
+					<a href="#" class="card bg-light card-img-grayscale">
+					  <img class="card-img" src="../imgs/hongkong.jpeg" alt="Card image">
+					  <div class="card-img-overlay">
+					    <h2 class="card-title">Hong Kong</h2>
+					  </div>
+					</a>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-lg-4 p-3">
+					<a href="nepal.html" class="card bg-light card-img-grayscale">
+					  <img class="card-img" src="../imgs/japan.jpeg" alt="Card image">
+					  <div class="card-img-overlay">
+					    <h2 class="card-title">Japan</h2>
+					  </div>
+					</a>
+				</div>
+
+				<div class="col-lg-4 p-3">
+					<a href="#" class="card bg-light card-img-grayscale">
+					  <img class="card-img" src="../imgs/korea.jpeg" alt="Card image">
+					  <div class="card-img-overlay">
+					    <h2 class="card-title">South Korea</h2>
+					  </div>
+					</a>
+				</div>
+
+				<div class="col-lg-4 p-3">
+					<a href="#" class="card bg-light card-img-grayscale">
+					  <img class="card-img" src="../imgs/ireland.jpeg" alt="Card image">
+					  <div class="card-img-overlay">
+					    <h2 class="card-title">Ireland</h2>
+					  </div>
+					</a>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-lg-4 p-3">
+					<a href="nepal.html" class="card bg-light card-img-grayscale">
+					  <img class="card-img" src="../imgs/thailand.jpeg" alt="Card image">
+					  <div class="card-img-overlay">
+					    <h2 class="card-title">Thailand</h2>
+					  </div>
+					</a>
+				</div>
+
+				<div class="col-lg-4 p-3">
+					<a href="#" class="card bg-light card-img-grayscale">
+					  <img class="card-img" src="../imgs/singapore.jpeg" alt="Card image">
+					  <div class="card-img-overlay">
+					    <h2 class="card-title">Singapore</h2>
+					  </div>
+					</a>
+				</div>
+
+			</div>
+		</div>
+	</section>
+
+	<div class="container-fluid bg-light">
+		<h1>Things I've Learned</h1>
+		<ul>
+			<li>People want similar things</li>
+			<li>People are inspiring, not so much places</li>
+			<li>There is enough for everyone</li>
+			<li>People want similar things</li>
+			<li>People are inspiring, not so much places</li>
+			<li>There is enough for everyone</li>
+		</ul>
+	</div>
+
+	<!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+  </body>
+</html>
