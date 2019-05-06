@@ -10,6 +10,23 @@ p a {
   color: #003262;
 }
 
+.project-image {
+  width: 100%;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.project-image-vertical {
+  height: 500px;
+}
+
+.project-link {
+  color: black;
+}
+
+.project-link:hover {
+  color: blue;
+}
+
 a.nav-link {
   font-size: 1.5em;
 }
