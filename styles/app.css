@@ -205,6 +205,9 @@ header .overlay {
       padding-left: 5%;
       padding-right: 5%;
   }
+  #projectsTopImage {
+    background-position-x: right;
+  }
 }
 
 @media (pointer: coarse) and (hover: none) {
