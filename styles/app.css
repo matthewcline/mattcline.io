@@ -114,6 +114,14 @@ a.nav-link {
   background-position-x: center;
 }
 
+#projectsTopImage {
+  background-image: url("../imgs/projectspage.jpeg");
+  background-size: cover;
+  height: 90%;
+  background-position-x: center;
+  background-position-y: 30%;
+}
+
 #homeName {
   font-weight: 400;
   font-size: 5em;
