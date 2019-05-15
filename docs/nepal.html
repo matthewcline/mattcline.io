@@ -119,7 +119,7 @@
             <img class="card-img" src="../imgs/nepal/28.jpeg" alt="Card image">
           </a>
         </div>
-        <div class="grid-item">
+        <div class="grid-item grid-item--width2">
           <a class="card">
             <img class="card-img" src="../imgs/nepal/29.jpeg" alt="Card image">
           </a>
@@ -139,7 +139,7 @@
             <img class="card-img" src="../imgs/nepal/34.jpeg" alt="Card image">
           </a>
         </div>
-        <div class="grid-item">
+        <div class="grid-item grid-item--width2">
           <a class="card">
             <img class="card-img" src="../imgs/nepal/35.jpeg" alt="Card image">
           </a>
@@ -214,6 +214,16 @@
       var msnry = new Masonry( '.grid', {
         // options
       });
+
+      var $grid = $('.grid').masonry({
+  columnWidth: 80
+});
+// change size of item by toggling gigante class
+$grid.on( 'click', '.grid-item', function() {
+  $(this).toggleClass('gigante');
+  // trigger layout after item size changes
+  $grid.masonry('layout');
+});
     </script>
     
   </body>
