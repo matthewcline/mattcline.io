@@ -44,6 +44,7 @@
   <!-- Adapted from: https://startbootstrap.com/snippets/video-header/ -->
 
       <div class="grid">
+          <div class="grid-sizer"></div>
         <div class="grid-item">
           <a class="card">
             <img class="card-img" src="../imgs/nepal/1.jpeg" alt="Card image">
@@ -195,7 +196,7 @@
 
     <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
 
-    <script>
+    <!-- <script>
       $('.grid').masonry({
         // options
         itemSelector: '.grid-item',
@@ -224,6 +225,16 @@ $grid.on( 'click', '.grid-item', function() {
   // trigger layout after item size changes
   $grid.masonry('layout');
 });
+    </script> -->
+
+    <script>
+      var $grid = $('.grid').imagesLoaded( function() {
+        $grid.masonry({
+          itemSelector: '.grid-item',
+          percentPosition: true,
+          columnWidth: '.grid-sizer'
+        }); 
+      });
     </script>
     
   </body>
