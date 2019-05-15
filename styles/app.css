@@ -141,6 +141,10 @@ a.nav-link {
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
 }
 
+.grid { margin-left: 3px; margin-right: 3px; margin-top: 50px; }
+.grid-item { width: 475px; padding: 3px; }
+.grid-item--width2 { width: 950px; padding: 3px; }
+
 /* Adapted from https://stackoverflow.com/questions/29646622/set-bootstrap-navbar-transparency-on-scroll */
 .navbar {
   -webkit-transition: all 0.6s ease-out;
@@ -208,6 +212,8 @@ header .overlay {
   #projectsTopImage {
     background-position-x: right;
   }
+
+  .grid-item--width2 { width: 475px; padding: 3px; }
 }
 
 @media (pointer: coarse) and (hover: none) {
