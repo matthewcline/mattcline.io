@@ -142,13 +142,16 @@ a.nav-link {
 }
 
 .grid { margin: 1%; }
-.grid-sizer { }
+.grid-sizer { width: 20%; }
+.grid-item img {
+  display: block;
+  width: 100%;
+}
 .grid-item { width: 20%; float: left; padding: 1%; }
-.grid-item--width2 { width: 20%; }
+.grid-item--width2 { width: 20%; float: left; padding: 1%; }
 
 .gigante {
-  width: 800px;
-  padding: 3px;
+  width: 40%; float: left; padding: 1%;
 }
 
 /* Adapted from https://stackoverflow.com/questions/29646622/set-bootstrap-navbar-transparency-on-scroll */
